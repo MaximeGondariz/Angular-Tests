@@ -1,0 +1,41 @@
+{
+    "pizzas":[
+        {
+            "id" : 1,
+            "nom" : "margarita",
+            "price" : 8,
+            "ingredient": [
+                "jambon",
+                "emmental",
+                "olive",
+                "sauce tomate"
+            ],
+            "image": "assets/categories/tomato.png"
+        },
+        {
+            "id" : 2,
+            "nom" : "Cream",
+            "price" : 10.5,
+            "ingredient": [
+                "chèvre",
+                "brocoli",
+                "jambon",
+                "olive",
+                "crème fraiche"
+            ],
+            "image": "assets/categories/cream.png"
+        },
+        {
+            "id" : 3,
+            "nom" : "Special",
+            "price" : 8,
+            "ingredient": [
+                "Emmental",
+                "Champignon",
+                "Poivron",
+                "Olive"
+            ],
+            "image": "assets/categories/special.png"
+        }
+    ]
+}

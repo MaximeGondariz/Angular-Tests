@@ -1,0 +1,40 @@
+GET http://localhost:3000/pizzas
+
+###
+
+###
+
+GET http://localhost:3000/pizzas/1
+
+###
+
+PUT http://localhost:3000/pizzas/1
+Content-Type: application/json
+
+{
+    "name": "Coco",
+    "price": 4
+}
+
+###
+
+POST http://localhost:3000/pizzas
+Content-Type: application/json
+
+{
+    "id" : 4,
+    "nom" : "Special",
+    "price" : 8,
+    "ingredient": [
+        "Emmental",
+        "Champignon",
+        "Poivron",
+        "Olive"
+    ],
+    "image": "assets/categories/cream.png"
+}
+
+###
+
+
+DELETE http://localhost:3000/pizzas/3

@@ -1,0 +1,21 @@
+#Detaille{
+    width : 100%;
+    height : auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat{
+    font-size: medium;
+    margin-bottom : 10px;
+    margin-top: 10px;
+}
+
+.cat img{
+    width : 100px;
+    height : 100px;
+    cursor: pointer;
+}

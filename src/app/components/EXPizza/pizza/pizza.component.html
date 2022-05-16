@@ -1,0 +1,7 @@
+<div>
+  <div id="container">
+    <!-- <button (click)="showData()">Pizza</button> -->
+    <app-menu [Noms]="pizzas" (changeDetaille)="onReceivedCD($event)"></app-menu>
+    <app-detaille [Detailles]="detaille"></app-detaille>
+  </div>
+</div>

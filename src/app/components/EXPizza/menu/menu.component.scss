@@ -1,0 +1,40 @@
+#menu{
+    width : 100%;
+    height : auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom : 20px;
+}
+
+.case{
+    cursor: pointer;
+    width: 20vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border : 1px solid black;
+    background : lightgray;
+    cursor : pointer;
+}
+
+.case img{
+    width : 100px;
+    height : 100px;
+}
+
+// .text{
+//     width : 100%;
+//     height:20%;
+// }
+
+a{
+    text-decoration: underline;
+    color:black;
+    font-size: larger;
+    &:hover{
+        color:red  
+    } 
+}

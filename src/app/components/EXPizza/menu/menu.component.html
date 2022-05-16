@@ -1,0 +1,11 @@
+<div id="menu">
+    <div [Selector]="selected?.id === nom.id" (click)='idDetaille(i)' 
+    class="case" 
+    *ngFor="let nom of NomPizza; index as i">
+      <img src={{nom.image}}>
+      <div class="text">
+        <p><strong> {{ nom.nom }} </strong></p>
+      </div>
+  </div>
+</div>
+<!-- <button (click)="showData()">data</button> -->

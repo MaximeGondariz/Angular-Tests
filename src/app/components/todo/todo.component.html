@@ -1,0 +1,20 @@
+<h1>Liste des tâches</h1>
+
+<input type="text" #message message.value="" placeholder="Placer une tâche"/>
+<button (click)="todoService.CreerTodo(message)">Créer une tache</button>
+
+<div class="todos">
+  <div class="todo" *ngFor="let todo of todos; index as i">
+    <div>
+      <input type="checkbox" [id]="'t-' + i">
+      <label [for]="'t-' + i">{{ todo.message }}</label>
+      <button (click)="todoService.SupprimerTodo(i)">Supprimer</button>
+    </div>
+    <div>
+      <input type="text" #edit edit.value=""/>
+      <button (click)="Edition(edit, i)">Editer</button>
+    </div>
+  </div>
+</div>
+
+<app-one></app-one>
